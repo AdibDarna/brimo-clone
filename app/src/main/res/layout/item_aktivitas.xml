@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ContainerAktivitas"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingEnd="10dp"
+    android:paddingStart="10dp"
+    android:paddingBottom="0dp"
+    app:flexDirection="column"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<com.google.android.flexbox.FlexboxLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:justifyContent="space_between"
+
+    >
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+
+
+        >
+
+        <ImageView
+            android:id="@+id/itemAktivitiasImage"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_menu_pulsa_revamp"
+
+            />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:flexDirection="column"
+        >
+        <TextView
+            android:id="@+id/itemAktivitiasTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transfer"
+            app:fontFamily="@font/avenir_next_bold"
+            android:textSize="16sp"
+            android:textColor="@color/blue_grey_900"
+            />
+        <TextView
+            android:id="@+id/itemAktivitiasRek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BANK BRI - 336601033749637"
+            app:fontFamily="@font/avenir_next_demi"
+            android:textSize="14sp"
+            android:textColor="@color/blue_grey_900"
+            />
+        <TextView
+            android:id="@+id/itemAktivitiasRef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No. Ref: 657300668930"
+            app:fontFamily="@font/avenir_next_demi"
+            android:textSize="14sp"
+            android:textColor="@color/blue_grey_900"
+            />
+        <TextView
+            android:id="@+id/itemAktivitiasTanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="06 Mar 2024 21:13"
+            app:fontFamily="@font/avenir_next_demi"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/blue_grey_500"
+            />
+    </com.google.android.flexbox.FlexboxLayout>
+    </com.google.android.flexbox.FlexboxLayout>
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:flexDirection="column"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sukses"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingRight="25dp"
+            android:paddingLeft="25dp"
+
+            android:textStyle="bold"
+            android:background="@drawable/rect_rounded_green"
+            app:fontFamily="@font/avenir_next_regular"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+</com.google.android.flexbox.FlexboxLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/divider_grey"
+        />
+</com.google.android.flexbox.FlexboxLayout>

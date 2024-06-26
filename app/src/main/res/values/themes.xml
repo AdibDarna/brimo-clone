@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Brimo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name = "android:windowActionBar">false</item>
+        <item name = "android:windowNoTitle">true</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_800</item>
+        <item name="colorPrimaryVariant">@color/blue_800</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blueShadowColor</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="fontFamily">@font/avenir_next_regular</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/blue_500</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="TextInactive" parent="Theme.Brimo">
+        <item name="iconSize">18dp</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="TextActive" parent="Theme.Brimo">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/avenir_next_bold</item>
+    </style>
+
+    <style name="TextTabStyle" parent="Theme.Brimo">
+            <item name="android:textSize" >14sp</item>
+            <item name="fontFamily">@font/avenir_next_demi</item>
+    </style>
+</resources>

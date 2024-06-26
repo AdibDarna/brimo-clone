@@ -1,0 +1,77 @@
+[
+  {
+    "title": "BFST742801001435504SRI WAHYUNI:CENAIDJA \n20230411CENAIDJA010O0205803099 \nESB:BFST:0008N:20230411BRINIDJA110742970",
+    "nominal": "5,510,000.00",
+    "saldo": "40,549,158.00",
+    "status": "kredit",
+    "tanggal": "01/03/24 12:49:08"
+  },{
+    "title": "PTR SRI WAHYUNI TO D SURYADI \nFROM354401003813504 TO811901000825530EDC\n",
+    "nominal": "505,000.00",
+    "saldo": "40,044,158.00",
+    "status": "debet",
+    "tanggal": "05/03/24 12:56:31"
+  },{
+  "title": "PTR SRI WAHYUNI TO D SURYADI \nFROM354401003813504 TO811901000825530EDC\n",
+  "nominal": "3,000.00",
+  "saldo": "40,041,158.00",
+  "status": "debet",
+  "tanggal": "05/03/24 12:56:31"
+}
+,{
+  "title": "BFST742801001435504SRI WAHYUNI:CENAIDJA \n20230412CENAIDJA010O0209406628 \nESB:BFST:0008N:20230412BRINIDJA110747782",
+  "nominal": "5,500,000.00",
+  "saldo": "45,541,158.00",
+  "status": "kredit",
+  "tanggal": "08/03/24 15:36:44"
+}
+,{
+  "title": "522184210742371400094461",
+  "nominal": "500,000.00",
+  "saldo": "45,041,158.00",
+  "status": "debet",
+  "tanggal": "09/03/24 15:38:47"
+}
+,{
+  "title": "BFST742801001435504SRI WAHYUNI:CENAIDJA \n20230415CENAIDJA010O0219553621 \nESB:BFST:0008N:20230415BRINIDJA110760975",
+  "nominal": "5,150,000.00",
+  "saldo": "50,191,158.00",
+  "status": "kredit",
+  "tanggal": "10/03/24 20:27:11"
+}
+,{
+  "title": "TOPD6013500427225777NBMB5221842107423714 \nESB:NBMB:0200600T:524693929330",
+  "nominal": "150,000.00",
+  "saldo": "50,041,158.00",
+  "status": "debet",
+  "tanggal": "10/03/24 20:27:45"
+}
+,{
+  "title": "BFSTINDRI SANNIA :CENAIDJA \n20230419CENAIDJA010O0230247930 \nESB:BFST:0008N:20230419BRINIDJA110774891",
+  "nominal": "500,000.00",
+  "saldo": "50,541,158.00",
+  "status": "kredit",
+  "tanggal": "11/03/24 14:11:14"
+}
+,{
+  "title": "522184210742371400550463",
+  "nominal": "500,000.00",
+  "saldo": "50,041,158.00",
+  "status": "debet",
+  "tanggal": "11/03/24 15:09:21"
+},{
+  "title": "BFST742801001435504SRI WAHYUNI:CENAIDJA \n20230419CENAIDJA010O0231514512 \nESB:BFST:0008N:20230419BRINIDJA110776469",
+  "nominal": "20,200,000.00",
+  "saldo": "70,241,158.00",
+  "status": "kredit",
+  "tanggal": "12/03/24 21:28:10"
+}
+,{
+  "title": "Admin Fee",
+  "nominal": "6,000.00",
+  "saldo": "70,235,158.00",
+  "status": "debet",
+  "tanggal": "14/03/24 23:59:59"
+}
+]
+

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MutasiTransaksiFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexboxLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+<com.google.android.flexbox.FlexboxLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+
+    android:background="@drawable/rect_border_rounded_grey"
+
+    >
+
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                app:flexDirection="column"
+                app:justifyContent="center"
+                 >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sumber Rekening"
+                    android:textSize="10sp"
+                    android:layout_marginBottom="5dp"
+                    app:fontFamily="@font/bri_digital_text_bold"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5510 0105 4421 537"
+                    android:textSize="12sp"
+                    android:textColor="@color/blue_700"
+                    app:fontFamily="@font/bri_digital_text_bold"
+
+                    />
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <ImageButton
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_arrow_down_blue_hd"
+                android:scaleType="fitCenter"
+                app:tint="@color/blue_grey_700"
+                android:background="@android:color/transparent"
+                />
+</com.google.android.flexbox.FlexboxLayout>
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            app:flexDirection="row"
+            app:alignItems="center"
+            app:justifyContent="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rect_border_rounded_grey"
+            >
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_filter_time"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rentang Waktu"
+                android:textSize="10sp"
+                app:fontFamily="@font/bri_digital_text_bold"
+
+                />
+
+        </com.google.android.flexbox.FlexboxLayout>
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewMutasiTransaksi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flexboxLayout2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
